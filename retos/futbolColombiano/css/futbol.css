@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(230, 173, 218);
+    background-image: url('/img/fondoFutbol4.jpg');
+    background-size: cover;  
+    
+       
+    
+            
+  }
+/*  background-color: rgb(230, 173, 218);*/
+#marginnav{
+  margin-top: 4em;
+}
+
+#colornav{
+  background-color: black;
+   
+}
+#letranav{
+  color:yellow;
+  font-family: 'Noto Serif', serif;
+  font-size: 2em;
+}
+
+#marginequipo{
+  
+  background-size: 8em;
+  width: auto;
+  height: auto;
+
+}

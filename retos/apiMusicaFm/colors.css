@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Advent+Pro|Averia+Libre');
+
+body{
+    position: relative;
+   background-color: black;
+    /* background-image: url("img/23.jpg"); */
+}
+
+#panel1{
+    color: white;
+
+}
+
+#puestoFondo{
+    color:black;
+    background-color: pink;
+   
+    height: 2.5em;
+}
+
+#nombreClase{
+    font-size: 1.1rem !important;
+}
+
+.fuente{
+    font-family: 'Advent Pro', sans-serif;
+}
+.tituloPrincipal{
+    font-family: 'Fredericka the Great', cursive;
+}

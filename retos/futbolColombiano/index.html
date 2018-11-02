@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="/css/futbol.css"> 
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel="stylesheet">  
+    <title>FutbolColombiano</title>
+</head>
+<body>
+  <!-- menu titulo -->
+  <div class="container" id="marginnav">
+    <nav class="navbar" id="colornav">
+      <a class="navbar-brand" href="#" id=letranav>
+        <img src="/img/fondoFutbol1.jpg" width="50" height="50" class="d-inline-block align-top" alt="">
+        Futbol Colombiano
+      </a>
+    </nav>
+
+     <!-- menu equipos -->
+    <div  id="marginequipo" style="background-color: #dbdddf;">
+      <ul class=" container nav justify-content-center" >
+        <li class="nav-item" >
+          <a class="nav-link active" href="#" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Equipos</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Liga</a>
+        </li>    
+      </ul>
+      
+        <div class="row">
+            <div class="col-4">
+                <h4>Selecciona un Equipo</h4>
+            </div>
+            <div class="col-4">
+                <select class="form-control" name="" id="equipos">
+                    <option value="nacional">Nacional</option>
+                    <option value="america">America</option>
+                    <option value="millonarios">Millonarios</option>
+                    <option value="tolima">Tolima</option>
+                    <option value="medellin">Medellin</option>                  
+                </select>
+            </div>
+        </div>
+        <hr />
+        <div class="row justify-content-md-center">
+          <div class="row">
+            <div class="col-5">
+              
+              <h3 id="equipoNac"></h3>
+              <img src="" alt="" id="imagen" width="150" height="150">
+              <br>
+              <a id="estrellas"> 
+              </a>
+              <h5 id="estadio"></h5>
+              <h5 id="entrenador"></h5>
+              <a href="#" class="badge badge-primary" id="web"></a>
+            </div>
+          </div>
+          <div class="col-4">
+            <p id="descripcion"></p>
+          </div>
+          <div class="col-3">
+            <table class="table table-hover">
+              <tbody id="jugadores">
+              </tbody>
+            </table>
+          </div>
+        </div> <!-- cierra div ligaA -->
+        <hr />
+
+      </div>
+
+  
+
+  </div>
+
+  <select name="provincia" id="provincia">
+    <option value="" disabled selected>Seleccione una Provincia...</option>
+    <option value="AB">Albacete</option>
+    <option value="AL">Almería</option>
+    <option value="AR">Araba</option>
+    <option value="AV">Ávila</option>
+    <option value="BA">Badajoz</option>
+  </select>
+  
+          
+  
+
+
+ <script src="futbol.js">
+ </script>   
+</body>
+</html> 
